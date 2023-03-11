@@ -14,6 +14,7 @@ numpy     1.21.5
 
 pandas   1.4.4  
 
+將圖片解壓縮在于訓練集同個檔案中 ，不需要將解壓后的文件挪出來
 執行train即可，read_ 是讀取本地端的圖片 top_1_top_5 是估計效能函數
 
 我使用的 三個模型 分別是 SGD perceptron lighGBM
